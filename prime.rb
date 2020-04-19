@@ -3,7 +3,7 @@
 def prime?(num)
   prime = false
   root = Math.sqrt(num)
-  for 0 in 0..2
+  for 2 in 0..num
   
   
 end
