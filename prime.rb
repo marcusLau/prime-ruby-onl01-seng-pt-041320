@@ -5,16 +5,10 @@ def prime?(num)
     return false
   end
   root = Math.sqrt(num)
-    for i in 2..root
-      if num % i == 0 
-        return false
-      end
+  for i in 2..root
+    if num % i == 0 
+      return false
     end
   end
-  
-  
-  
-  
-  
   return true
 end
