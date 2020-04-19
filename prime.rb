@@ -2,7 +2,8 @@
 
 def prime?(num)
   prime = false
-  root = Math.sqrt
+  root = Math.sqrt(num)
+  
   
   
 end
