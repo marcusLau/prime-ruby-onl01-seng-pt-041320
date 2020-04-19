@@ -2,7 +2,7 @@
 
 def prime?(num)
   root = Math.sqrt(num)
-  for 2 in 2..root
+  for i in 2..root
     if num % 2 == 0 
       return false
     end
